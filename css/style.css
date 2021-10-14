@@ -1,0 +1,59 @@
+
+
+body {
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+    background-color: lightcyan;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.web-based {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.web-based h2 {
+    font-family: Impact, sans-serif;
+}
+
+
+.google {
+    font-family: 'Raleway', sans-serif;
+}
+
+.google h2 {
+    font-weight: 900; /** bolder - web default **/
+
+}
+
+.google p {
+    font-weight: 300; /* lighter web default*/
+}
+
+
+.adobe h2 {
+    font-family: shlop, sans-serif;
+}
+.adobe p {
+    font-family: pt-sans-pro, sans-serif;
+}
+
+.self-hosted h2 {
+    font-family: 'rieslingregular';
+}
+
+@media screen and (min-width: 992px) {
+    /** self hosted fonts ***/
+    @font-face {
+        font-family: 'rieslingregular';
+        src: url('../fonts/riesling-webfont.woff2') format('woff2'),
+            url('../fonts/riesling-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+}
